@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="sachinmenu.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+						  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+						  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+						  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+						  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+						  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<body>
+<div id="mySidenav" class="sidenav">
+														  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+														  <a class="active" href="D:\kathu_KaHO_Docs\demo.html">Teacher</a>
+														  <a href="D:\kathu_KaHO_Docs\demo1.html">Student</a>
+														  <a href=>Subject</a>
+														  <a href=>Activity</a>
+														  <a href=>Concern</a>
+														  <a href=>Compliment</a>
+														  <a href=>Class-section</a>
+														  <a href=>Timetable</a>
+														  <a href=>Assessment</a>
+														  <a href=>Mark</a>
+														  <a href=>Lesson plan</a>
+														  <a href=>Event</a>
+														  <a href=>Tag</a> 
+														  <a href=>Observation</a>	
+												</div>
+
+												<div id="main" style="background-color:#007bff">
+
+																	  <span style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	
+
+	                                         
+															 <div class="dropdown"> 
+                                                            <img src="C:\Users\KaHO\Desktop\image.jpg" alt="Trulli"   style="border-radius: 10px; width:30px; height:25px">															 
+                                                           <button style="background-color:#007bff; margin-top:-6px; border:1px solid #007bff" type="button" data-toggle="dropdown">
+	                                                      
+	                                                        <span>My Account</span>
+	                                                                 </button>
+                                                            <!--         <ul class="dropdown-menu">
+                                                                     <li><a class="dropdown-item" href="#">Profile</a></li>
+                                                                     <li> <a class="dropdown-item" href="#">logout</a></li>
+                                                                     <li><a class="dropdown-item" href="#">Settings</a></li>
+																	  <li><a class="dropdown-item" href="#">Help</a></li>
+																	   <li><a class="dropdown-item" href="#">Exit</a></li>
+                                                                     </ul>-->
+                                                                     </div>
+
+                                                                     </div>
+																	 
+																
+												</div>
+
+<div  class="container">
+<i class="fas fa-ellipsis-v" id="upload"></i>
+<i class="fas fa-cloud-upload-alt" id="upload" ></i>
+<div class="top">
+<div class="dropdown">
+    <button class="btn1  dropdown-toggle" type="button" data-toggle="dropdown">Select Column Name
+    <span class="caret"></span></button>
+    
+   
+   <select>
+  <option value="" selected data-default>select Option</option>
+  <option value="tea">Tea</option>
+  <option value="coffee">Coffee</option>
+  <option value="soda">Soda</option>
+</select>
+    <input  type="search" placeholder="Type Here"/>
+    <button id="btn" class="btn btn-primary " type="text" data-toggle="">Search
+   </button>
+     <button class="btn btn-success " type="button" data-toggle="">Create   </button>
+  
+	
+    <ul class="dropdown" >
+<option>   <li><a href="#">Teacher Name</a></li></option>
+ 
+ 
+	</ul>	
+    <ul class="dropdown-menu">
+      <li><a href="#">Teacher Name</a></li>
+      <li><a href="#">Designation</a></li>
+      <li><a href="#">Report</a></li>
+       <li><a href="#">Email</a></li>
+        <li><a href="#">Phone</a></li>
+            <li><a href="#">Action</a></li>
+    </ul>
+  </div>
+</div>
+
+ <table class="table " >
+ <a href="D:\kathu_KaHO_Docs\sachinmenu.html"><i class="fas fa-long-arrow-alt-left" id="table1"></i></a>
+    <thead>
+      <tr class="head">
+        <th>Teacher Name</th>
+        <th>Designation</th>
+        <th>Report To</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Admin</td>
+        <td>Trustee</td>
+        <td>-</td>
+        <td>admin@tdbs.com</td>
+        <td></td>	
+        <td>
+    <div class="dropdown">
+    <button class="dbox" type="button" data-toggle="dropdown"><i style="font-size:20px" class="fa">&#xf142;</i>
+	
+
+    <span class="caret"></span></button>
+
+    <ul class="dropdown-menu">
+      <li style="color:black;font-size:12px;margin:10px;><a href="#" ><i class='fas'style="color:black;margin:10px;">&#xf4ff;</i>Edit Teacher</a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a href="#"><i class="fas fa-trash-alt" style="margin:10px;"></i>Delete Teacher </a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a  href="#"pageview ><i class="fas fa-search" style="color:black;margin:10px;"> </i>View Teacher</a></li>
+    </ul>
+ 
+  </div>
+</div></td>
+      </tr>
+	  
+	  
+	  <tr>
+        <td>Sachin</td>
+        <td>Principal</td>
+        <td>-</td>
+        <td>ruchi@tdbs.com</td>
+        <td>9454374460</td>
+        <td> <div class="dropdown">
+    <button class="dbox" type="button" data-toggle="dropdown"><i style="font-size:20px" class="fa">&#xf142;</i>
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+     <li style="color:black;font-size:12px;margin:10px;><a href="#" ><i  class='fas'style="color:black;margin:10px;">&#xf4ff;</i>Edit Teacher</a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a href="#"><i class="fas fa-trash-alt" style="margin:10px;"></i>Delete Teacher </a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a  href="#"pageview ><i class="fas fa-search" style="color:black;margin:10px;"> </i>View Teacher</a></li>
+    </ul>
+  </div>
+</div></td>
+
+      </tr>
+	  <tr>
+        <td>Ekta Mishra </td>
+        <td>Teacher</td>
+        <td>Ruchi</td>
+        <td>ekta@tdbs.com</td>
+        <td>-</td>
+        <td> <div class="dropdown">
+    <button class="dbox" type="button" data-toggle="dropdown"><i style="font-size:20px" class="fa">&#xf142;</i>
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+     <li style="color:black;font-size:12px;margin:10px;><a href="#" ><i  class='fas'style="color:black;margin:10px;">&#xf4ff;</i>Edit Teacher</a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a href="#"><i class="fas fa-trash-alt" style="margin:10px;"></i>Delete Teacher </a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a  href="#"pageview ><i class="fas fa-search" style="color:black;margin:10px;"> </i>View Teacher</a></li>
+    </ul>
+  </div>
+</div>
+</td>
+      </tr>
+	  
+	  
+	  <tr>
+        <td>Neelanjana Kapoor</td>
+        <td>Teacher</td>
+        <td>Ruchi</td>
+        <td>neelanjana@tdbs.com</td>
+        <td>9838950012</td>
+        <td> <div class="dropdown">
+    <button class="dbox" type="button" data-toggle="dropdown"><i style="font-size:20px" class="fa">&#xf142;</i>
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li style="color:black;font-size:12px;margin:10px;><a href="#" ><i  class='fas'style="color:black;margin:10px;">&#xf4ff;</i>Edit Teacher</a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a href="#"><i class="fas fa-trash-alt" style="margin:10px;"></i>Delete Teacher </a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a  href="#"pageview ><i class="fas fa-search" style="color:black;margin:10px;"> </i>View Teacher</a></li>
+    </ul>
+  </div>
+</div>
+      </tr>
+	  
+	  <tr>
+        <td>Areej</td>
+        <td>Teacher</td>
+        <td>Ruchi</td>
+        <td>areej@tdbs.com</td>
+        <td>9919984189</td>
+        <td> <div class="dropdown">
+    <button class="dbox" type="button" data-toggle="dropdown"><i style="font-size:20px" class="fa">&#xf142;</i>
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+    <li style="color:black;font-size:12px;margin:10px;><a href="#" ><i  class='fas'style="color:black;margin:10px;">&#xf4ff;</i>Edit Teacher</a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a href="#"><i class="fas fa-trash-alt" style="margin:10px;"></i>Delete Teacher </a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a  href="#"pageview ><i class="fas fa-search" style="color:black;margin:10px;"> </i>View Teacher</a></li>
+    </ul>
+  </div>
+</div>
+      </tr>
+	  
+	  <tr>
+        <td>Richa</td>
+        <td>Teacher</td>
+        <td>Ruchi</td>
+        <td>richa@tdbs.com</td>
+        <td></td>
+        <td> <div class="dropdown">
+    <button class="dbox" type="button" data-toggle="dropdown"><i style="font-size:20px" class="fa">&#xf142;</i>
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li style="color:black;font-size:12px;margin:10px;><a href="#" ><i  class='fas'style="color:black;margin:10px;">&#xf4ff;</i>Edit Teacher</a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a href="#"><i class="fas fa-trash-alt" style="margin:10px;"></i>Delete Teacher </a></li>
+      <li style="color:black;font-size:12px;margin:10px;><a  href="#"pageview ><i class="fas fa-search" style="color:black;margin:10px;"> </i>View Teacher</a></li>
+    </ul>
+  </div>
+</div>
+      </tr>
+	  
+    </tbody>
+  </table>
+</div>
+<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			  document.getElementById("main").style.marginLeft = "250px";
+			   document.getElementById("demo").style.marginLeft = "250px";
+			 
+			}
+
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			  document.getElementById("main").style.marginLeft= "0";
+			    document.getElementById("demo").style.marginLeft= "0";
+			  document.body.style.backgroundColor = "white";
+}
+</script>
+</body>
+</html>
